@@ -58,6 +58,6 @@ rm -r xray_config.json
 wget -q -O /root/marzban/xray_config.json "https://raw.githubusercontent.com/fxthur/marzban-nginx/main/xray_config.json"
 docker compose up -d
 
-clear 
+ 
 echo "Installation has been completed"
 echo "Please open the panel at http://yourdomain:8000/dashboard"

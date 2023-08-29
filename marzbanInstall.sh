@@ -53,7 +53,7 @@ service nginx restart
 cd
 
 sleep 2
-wget -qO- https://github.com/fxthur/marzban-nginx/raw/main/multiport.tar.gz | tar xz --xform 's/multiport/marzban/' && cd marzban
+wget -qO- https://github.com/fxthur/marzban-nginx/raw/main/multi-port.tar.gz | tar xz --xform 's/multi-port/marzban/' && cd marzban
 sleep 2
 rm -r xray_config.json
 wget -q -O /root/marzban/xray_config.json "https://raw.githubusercontent.com/fxthur/marzban-nginx/main/xray_config.json"

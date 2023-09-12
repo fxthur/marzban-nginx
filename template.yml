@@ -38,15 +38,7 @@ proxy-groups:
   - name: VIP AREA
     type: select
     proxies:
-      - '⚡️ Fastest'
     {{ proxy_remarks | yaml | indent(2) }}
-      
-  - name: '⚡️ Fastest'
-    type: 'url-test'
-    tolerance: 150
-    url: 'https://cp.cloudflare.com/generate_204'
-    interval: 300
-    proxies:
-    {{ proxy_remarks | yaml | indent(2) }}
+
 rules:
   - MATCH,VIP AREA

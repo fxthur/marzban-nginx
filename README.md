@@ -37,6 +37,7 @@ Perbedaan pada repo ini adalah menggunakan nginx agar dapat berjalan multi port 
 
 ## Fitur
 
+- Panel Xray
 - Multi Path
 - Bisa digunakan untuk SSL dan Non SSL
 
@@ -49,19 +50,19 @@ jadi silahkan ganti dengan cara
 #### Change Admin
 
 ```sh
-  nano /root/marzban/env
+nano /root/marzban/.env
 ```
 
 ####
 
 ```sh
-  cd /root/marzban
+cd /root/marzban
 ```
 
 #### Restart Docker
 
 ```sh
-  docker compose down && docker compose up -d
+docker compose down && docker compose up -d
 ```
 
 ## Setting Host
